@@ -1,0 +1,39 @@
+2020-12-21 07:49:27 Error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakephp_demo.employee' doesn't exist in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 142
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:100
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php:84
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:653
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\ModelCommand.php:199
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakephp_demo.employee' doesn't exist in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:310
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:140
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:100
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php:84
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:653
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\ModelCommand.php:199
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Console\CommandRunner.php:336
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\bin\cake.php:12
+
+
+

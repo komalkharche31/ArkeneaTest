@@ -1,0 +1,819 @@
+2020-12-21 07:51:37 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 292
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/add
+
+
+2020-12-21 07:53:06 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 292
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/add
+
+
+2020-12-21 07:56:17 Error: [Error] Class 'CsrfProtectionMiddleware' not found in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\config\routes.php on line 80
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:934
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\config\routes.php:91
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:197
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:113
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:85
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:133
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/add
+
+
+2020-12-21 07:57:05 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 313
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:152
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/add
+
+
+2020-12-21 08:11:57 Error: [ParseError] syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php on line 53
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\composer\ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\App.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\App.php:67
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:213
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/add
+
+
+2020-12-21 08:17:11 Error: [ParseError] syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\templates\Employees\add.php on line 18
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+
+
+2020-12-21 08:18:05 Error: [RuntimeException] No context provider found for value of type `string`. Use `null` as 1st argument of FormHelper::create() to create a context-less form. in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php on line 154
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2414
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:376
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\templates\Employees\add.php:17
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+
+
+2020-12-21 08:18:26 Error: [RuntimeException] No context provider found for value of type `string`. Use `null` as 1st argument of FormHelper::create() to create a context-less form. in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\Form\ContextFactory.php on line 154
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:2414
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php:376
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\templates\Employees\add.php:17
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+
+
+2020-12-21 08:49:04 Error: [ParseError] syntax error, unexpected '=' in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php on line 63
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\composer\ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\App.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\App.php:67
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:213
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+
+
+2020-12-21 08:49:18 Error: [ParseError] syntax error, unexpected '=' in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php on line 63
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\composer\ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\App.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\App.php:67
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:213
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+
+
+2020-12-21 08:55:32 Error: [ParseError] syntax error, unexpected ''image'' (T_CONSTANT_ENCAPSED_STRING) in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php on line 76
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\composer\ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\App.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\App.php:67
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:213
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:63
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/add
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/add
+
+
+2020-12-21 09:00:48 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /img/image
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/edit/1
+
+
+2020-12-21 09:01:05 Error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 224
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /img/image
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/edit/1
+
+
+2020-12-21 09:05:58 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1124
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:293
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1072
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:500
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:511
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:1545
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/edit/komal/cakephpdemo/cakedemoC:/xampp/htdocs/komal/cakephpdemo/cakedemo/webroot/img/dog.jpg
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/edit/1
+
+
+2020-12-21 09:06:58 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1124
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:293
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1072
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:500
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:511
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:1545
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/edit/komal/cakephpdemo/cakedemoC:/xampp/htdocs/komal/cakephpdemo/cakedemo/webroot/img/dog.jpg
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/edit/1
+
+
+2020-12-21 09:12:53 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found. in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\HelperRegistry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1089
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\templates\Employees\edit.php:32
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/edit/1
+
+
+2020-12-21 09:13:30 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1124
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:293
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1072
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:500
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:511
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:1545
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/edit/webroot/img/C:/xampp/htdocs/komal/cakephpdemo/cakedemo/webroot/img/dog.jpg
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/edit/1
+
+
+2020-12-21 09:14:15 Error: [Cake\View\Exception\MissingHelperException] Helper class webrootHelper could not be found. in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'webrootHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\HelperRegistry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1089
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\templates\Employees\edit.php:33
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1176
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:1134
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\View\View.php:764
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:699
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:540
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/edit/1
+
+
+2020-12-21 09:14:49 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1124
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:293
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1072
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:500
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:511
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:1545
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/edit/komal/cakephpdemo/cakedemoC:/xampp/htdocs/komal/cakephpdemo/cakedemo/webroot/img/dog.jpg
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/edit/1
+
+
+2020-12-21 09:15:34 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1124
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:293
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1072
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:500
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:511
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:1545
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/edit/komal/cakephpdemo/cakedemoC:/xampp/htdocs/komal/cakephpdemo/cakedemo/webroot/img/dog.jpg
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/edit/1
+
+
+2020-12-21 09:16:05 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1124
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:293
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1072
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:500
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:511
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:1545
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/edit/komal/cakephpdemo/cakedemoC:/xampp/htdocs/komal/cakephpdemo/cakedemo/webroot/img/dog.jpg
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/edit/1
+
+
+2020-12-21 10:10:53 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1124
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:293
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1072
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:500
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:511
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:1545
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php:38
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/view/komal/cakephpdemo/cakedemoC:/xampp/htdocs/komal/cakephpdemo/cakedemo/webroot/img/pp.jpg
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/view/18
+
+
+2020-12-21 10:11:02 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1124
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:293
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1072
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:500
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:511
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:1545
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php:102
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/edit/komal/cakephpdemo/cakedemoC:/xampp/htdocs/komal/cakephpdemo/cakedemo/webroot/img/pp.jpg
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/edit/18
+
+
+2020-12-21 10:11:09 Error: [InvalidArgumentException] Cannot convert value of type `string` to integer in C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php on line 40
+Stack Trace:
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\TypeConverterTrait.php:39
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\PDOStatement.php:80
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:111
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:163
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\ValueBinder.php:148
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:340
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Database\Query.php:250
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1124
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:293
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Query.php:1072
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:500
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:511
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\ORM\Table.php:1545
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\src\Controller\EmployeesController.php:38
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\komal\cakephpdemo\cakedemo\webroot\index.php:40
+
+Request URL: /employees/view/komal/cakephpdemo/cakedemoC:/xampp/htdocs/komal/cakephpdemo/cakedemo/webroot/img/pp.jpg
+Referer URL: http://localhost/komal/cakephpdemo/cakedemo/employees/view/18
+
+
